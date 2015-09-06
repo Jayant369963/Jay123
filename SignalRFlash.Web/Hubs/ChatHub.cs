@@ -8,6 +8,7 @@ namespace SignalRFlash.Web.Hubs
 {
     public class ChatHub : Hub
     {
+        //Added by feature branch to say hello
         //Hello this is jayant
         public void BroadcastMessage(string fromUser, string message)
         {
