@@ -12,6 +12,7 @@ namespace SignalRFlash.Web.Hubs
         //Hello this is jayant
         public void BroadcastMessage(string fromUser, string message)
         {
+            //pakodi
             Clients.All.writeMessage(fromUser, message);
         }
     }
